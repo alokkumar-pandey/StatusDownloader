@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group
+        android:id="@+id/grpid2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/WS"
+            android:title="Whatsapp Statuses"
+            android:icon="@drawable/ic_whatshot_black_24dp"/>
+
+        <item
+            android:id="@+id/WBS"
+            android:title="Whatsapp Business Statuses"
+            android:icon="@drawable/ic_whatshot_black_24dp"/>
+
+        <item
+            android:id="@+id/G"
+            android:title="Stories Gallery"
+            android:icon="@drawable/ic_image_black_24dp"/>
+
+       <!-- <item
+            android:id="@+id/Images"
+            android:title="Whatsapp Images"
+            android:icon="@drawable/ic_photo_library_black_24dp"/>
+        <item
+            android:id="@+id/videos"
+            android:title="Whatsapp videos"
+            android:icon="@drawable/ic_video_library_black_24dp"/>-->
+    </group>
+
+
+
+    <group
+        android:id="@+id/grpid2p"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/PS"
+            android:title=" Parallel space"
+            android:icon="@drawable/ic_whatshot_black_24dp"/>
+
+        <item
+            android:id="@+id/PSL"
+            android:title="Parallel space lite"
+            android:icon="@drawable/ic_whatshot_black_24dp"/>
+
+
+    </group>
+    <group
+        android:id="@+id/grpide"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/mshare"
+            android:title="Recommend to Friends"
+            android:icon="@drawable/ic_share_black_24dp"/>
+       <!-- <item
+            android:id="@+id/rate"
+            android:title="Rate us!"
+            android:icon="@drawable/ic_star_black_24dp"/>-->
+    </group>
+
+</menu>
